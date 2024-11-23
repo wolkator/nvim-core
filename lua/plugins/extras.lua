@@ -10,11 +10,7 @@ return {
 		keys = {
 			{ "<leader>o", "<cmd>Oil<cr>", desc = "Oil" },
 		},
-	},
-	{
-		"echasnovski/mini.statusline",
-		version = false,
-		opts = {},
+		lazy = false,
 	},
 	{
 		"echasnovski/mini.icons",
@@ -22,24 +18,10 @@ return {
 		opts = {},
 	},
 	{
-		"echasnovski/mini.move",
-		version = false,
-		opts = {
-			mappings = {
-				left = "H",
-				right = "L",
-				down = "J",
-				up = "K",
-			},
-		},
-	},
-	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
 		opts = {
 			spec = {
-				{ "<leader>s", group = "Search" },
-				{ "<leader>l", group = "Load session" },
 				{ "<leader>x", group = "Diagnostic" },
 			},
 		},

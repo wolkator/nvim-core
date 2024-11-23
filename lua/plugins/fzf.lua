@@ -12,16 +12,15 @@ return {
 			},
 		},
 		keys = {
-			{ "<leader>ss", "<cmd>FzfLua builtin<cr>", desc = "Fzf" },
-			{ "<leader>sf", "<cmd>FzfLua files<cr>", desc = "Files" },
-			{ "<leader>sb", "<cmd>FzfLua buffers<cr>", desc = "Buffers" },
-			{ "<leader>so", "<cmd>FzfLua oldfiles<cr>", desc = "Old" },
-			{ "<leader>sh", "<cmd>FzfLua help_tags<cr>", desc = "Help" },
-			{ "<leader>sg", "<cmd>FzfLua live_grep<cr>", desc = "Grep" },
-			{ "<leader>sw", "<cmd>FzfLua grep_cword<cr>", desc = "Word" },
-			{ "<leader>s/", "<cmd>FzfLua grep_curbuf<cr>", desc = "Here" },
+			{ "<leader> ", "<cmd>FzfLua builtin<cr>", desc = "Fzf" },
+			{ "<leader>f", "<cmd>FzfLua files<cr>", desc = "Files" },
+			{ "<leader>b", "<cmd>FzfLua buffers<cr>", desc = "Buffers" },
+			{ "<leader>r", "<cmd>FzfLua oldfiles<cr>", desc = "Recent" },
+			{ "<leader>h", "<cmd>FzfLua help_tags<cr>", desc = "Help" },
+			{ "<leader>g", "<cmd>FzfLua live_grep<cr>", desc = "Grep" },
+			{ "<leader>/", "<cmd>FzfLua grep_curbuf<cr>", desc = "Search" },
 			{
-				"<leader>sc",
+				"<leader>c",
 				function()
 					require("fzf-lua").files({ cwd = vim.fn.stdpath("config") })
 				end,

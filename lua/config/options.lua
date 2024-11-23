@@ -22,6 +22,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.inccommand = "split"
 vim.opt.scrolloff = 10
+vim.opt.statusline = "%{%mode(1)%}  %f%m%r%= %{&filetype} %{&fileencoding} %l/%L %p%%"
 
 -- Commands
 vim.cmd.colorscheme(Colorscheme)

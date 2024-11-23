@@ -9,7 +9,7 @@ local winfocus = function(where, desc)
 		if vim.bo.buftype == "terminal" then
 			vim.cmd.startinsert()
 		end
-	end, { desc = "Focus " .. desc .. " window" })
+	end, { desc = desc })
 end
 winfocus("h", "Focus left window")
 winfocus("j", "Focus bottom window")
