@@ -1,6 +1,7 @@
 return {
 	{
 		"nvim-treesitter/nvim-treesitter",
+		dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
 		build = ":TSUpdate",
 		main = "nvim-treesitter.configs",
 		opts = {
@@ -20,9 +21,10 @@ return {
 			},
 			sync_install = false,
 			auto_install = true,
-			highlight = {
-				enable = true,
-			},
+			highlight = { enable = true },
+			incremental_selection = { enable = true },
+			indent = { enable = true },
+			textobjects = { enable = true },
 		},
 	},
 }
