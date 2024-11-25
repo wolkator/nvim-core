@@ -1,15 +1,10 @@
 return {
-	-- "tpope/vim-sleuth",
-	-- {
-	-- 	"echasnovski/mini.icons",
-	-- 	version = false,
-	-- 	opts = {},
-	-- },
 	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
 		opts = {
 			spec = {
+				{ "<leader>s", group = "Search" },
 				{ "<leader>x", group = "Diagnostic" },
 			},
 		},
