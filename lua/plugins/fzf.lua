@@ -11,7 +11,7 @@ return {
 			},
 		},
 		keys = {
-			{ "<leader>f", "<cmd>FzfLua builtin<cr>", desc = "Fzf builtin" },
+			{ "<leader>b", "<cmd>FzfLua builtin<cr>", desc = "Fzf builtin" },
 			{ "<leader>sf", "<cmd>FzfLua files<cr>", desc = "Files" },
 			{ "<leader>sb", "<cmd>FzfLua buffers<cr>", desc = "Buffers" },
 			{ "<leader>so", "<cmd>FzfLua oldfiles<cr>", desc = "Old files" },

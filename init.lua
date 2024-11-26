@@ -1,4 +1,4 @@
-Colorscheme = "retrobox"
+Colorscheme = "koehler"
 
 -- Options, commands and autocommands not related to plugins
 require("config.options")
