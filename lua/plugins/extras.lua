@@ -1,10 +1,9 @@
 return {
 	{
 		"folke/which-key.nvim",
-		event = "VeryLazy",
+		lazy = false,
 		opts = {
 			spec = {
-				{ "<leader>s", group = "Search" },
 				{ "<leader>x", group = "Diagnostic" },
 			},
 		},
