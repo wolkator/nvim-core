@@ -19,7 +19,7 @@ return {
 			{ "<leader>g", "<cmd>FzfLua live_grep<cr>", desc = "Grep" },
 			{ "<leader>/", "<cmd>FzfLua grep_curbuf<cr>", desc = "Buffer" },
 			{
-				"<leader>c",
+				"<leader>n",
 				function()
 					require("fzf-lua").files({ cwd = vim.fn.stdpath("config") })
 				end,
