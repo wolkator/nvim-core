@@ -2,6 +2,7 @@ return {
 	{
 		"stevearc/conform.nvim",
 		opts = {
+			lazy = false,
 			format_on_save = {
 				async = false,
 				timeout_ms = 500,

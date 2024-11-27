@@ -24,7 +24,7 @@ vim.o.foldmethod = "indent"
 vim.o.foldcolumn = "0"
 vim.o.foldtext = ""
 vim.o.foldlevelstart = 99
-vim.o.foldnestmax = 6
+vim.o.foldnestmax = 5
 vim.o.inccommand = "split"
 vim.o.scrolloff = 10
 vim.o.statusline = "%{%mode(1)%}  %f%m%r%= %{&filetype} %{&fileencoding} %l/%L %p%%"

@@ -2,7 +2,6 @@
 return {
 	{
 		"folke/lazydev.nvim",
-		ft = "lua", -- only load on lua files
 		lazy = false,
 		opts = {
 			library = {
@@ -69,8 +68,5 @@ return {
 				},
 			})
 		end,
-		keys = {
-			{ "<leader>M", "<cmd>Mason<cr>", desc = "Mason" },
-		},
 	},
 }
